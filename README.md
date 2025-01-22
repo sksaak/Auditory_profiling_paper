@@ -17,14 +17,17 @@ The proposed approach, consequently, allows generating of audiologically plausib
 ----------------------------------------------------------------------------------------------
 ## The code for reproducing the analysis can be found in the folders:  
 
-## Robust_learning
+### Robust_learning
 Estimating the number of profiles via bootstrapping
 
-## Generating_profiles
+### Generating_profiles
 Generating the profiles using the learned parameters from the robust learning step
 
-## Classification_models
-Model training and evaluation (Random forests) with different parameterization (CV,evaluation metric, binarization strategy)
+<img src="https://github.com/sksaak/AP_clustering_single_dataset/blob/main/analyses_pipeline.png?raw=true" alt="Pipeline Analysis" width="500"/>
+-> Visualization of analyses steps performed in "Robust_learning" and "Generating_profiles"
+
+### Classification_models
+Model training and evaluation (Random forests) with different parameterization (CV, evaluation metric, binarization strategy)
 
 #### Data availability
 According to the data usage agreement of the authors, the datasets analyzed in this study can only be shared upon motivated request.
